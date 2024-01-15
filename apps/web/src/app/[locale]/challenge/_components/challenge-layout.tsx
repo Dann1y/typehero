@@ -129,7 +129,7 @@ export function ChallengeLayout({
     // The current position of mouse
     let x = 0;
     let y = 0;
-    // Width of left side on dekstop, height of top side on mobile;
+    // Width of left side on desktop, height of top side on mobile;
     let leftWidth = 0;
     let topHeight = 0;
 
