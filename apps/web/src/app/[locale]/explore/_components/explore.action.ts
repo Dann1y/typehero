@@ -61,8 +61,8 @@ export async function getChallengesByTagOrDifficulty(str: string, take?: number)
 
 /**
  * Fetches the length of how many challenges are in a
- * difficutly / tag group
- * @param str difficutly or tag string
+ * difficulty / tag group
+ * @param str difficulty or tag string
  */
 export const getExploreChallengesLengthByTagOrDifficulty = cache((str: string) => {
   const formattedStr = str.trim().toUpperCase();

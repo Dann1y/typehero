@@ -12,7 +12,7 @@ import { FlaskConical, History, Text } from '@repo/ui/icons';
 
 import { AOT_CHALLENGES } from './aot-slugs';
 import type { ChallengeRouteData } from './getChallengeRouteData';
-import { useTrackNavigationVisiblity } from './use-track-visibility.hook';
+import { useTrackNavigationVisibility } from './use-track-visibility.hook';
 
 type Tab = 'description' | 'solutions' | 'submissions';
 interface Props {
@@ -104,7 +104,7 @@ export function LeftWrapper({ children, challenge, track, expandPanel, isDesktop
     !isAotChallenge;
 
   const isIconOnly = isCollapsed && isDesktop;
-  const { setIsTrackTitleVisible } = useTrackNavigationVisiblity();
+  const { setIsTrackTitleVisible } = useTrackNavigationVisibility();
 
   useEffect(() => {
     setIsTrackTitleVisible(Boolean(isTrackVisible));

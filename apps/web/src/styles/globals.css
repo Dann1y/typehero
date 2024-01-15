@@ -222,7 +222,7 @@ main {
 
 @media (min-width: 1400px) {
   #container {
-    /* here we calculate the diffrence between screen width and the container width (1400px)
+    /* here we calculate the difference between screen width and the container width (1400px)
     then split that on half to make carousel align left with the rest of the content and i added some rems to aligned perfectly */
     padding-left: calc(((100vw - 1400px) + 12rem) / 2);
   }

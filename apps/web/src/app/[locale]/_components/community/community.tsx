@@ -78,7 +78,7 @@ export function Community() {
           }
         />
       </div>
-      {/* backdrop styles don't apply for the last pixel row of the elment for some reason no there's p and m offsets*/}
+      {/* backdrop styles don't apply for the last pixel row of the element for some reason no there's p and m offsets*/}
       <section className={clsx(styles.backdrop, 'relative -mb-[1px] pb-[1px]')}>
         <div className="backdrop-blur-md">
           <div className="container flex flex-col justify-center pt-[128px] lg:flex-row lg:items-center lg:pb-[148px]">

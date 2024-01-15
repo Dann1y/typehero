@@ -20,13 +20,13 @@ const casettesByArtist = {
   'Whitney Houston': 3,
 };
 
-const getCasetteCount = (artist: Artist) => {
+const getCassetteCount = (artist: Artist) => {
   return casettesByArtist[artist];
 }
 
 // should work just fine for a valid artist
-getCasetteCount('Mariah Carey');
+getCassetteCount('Mariah Carey');
 
 // should error for artists that are not part of the original
 // @ts-expect-error
-getCasetteCount('Red Hot Chili Peppers')
+getCassetteCount('Red Hot Chili Peppers')

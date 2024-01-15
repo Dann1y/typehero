@@ -2,7 +2,7 @@
 
 The `keyof` operator is used for extracting a union representing the keys (also known as "properties") of a type.
 
-Let's say your audiophile cousin is asking you to digitize her casette tape collection (she's convinced they "sound better" on casette... yawn..). So you make an object where you count up how many albums you have for each artist:
+Let's say your audiophile cousin is asking you to digitize her cassette tape collection (she's convinced they "sound better" on cassette... yawn..). So you make an object where you count up how many albums you have for each artist:
 
 <!-- no need to complicate the reading of this by some having quotes and some not (which is made especially distracting by the fact that they show up syntax highlighted different colors) -->
 <!-- prettier-ignore -->
@@ -72,6 +72,6 @@ The result of `keyof` is always a union.
 
 ## Solving This Challenge
 
-We have a `getCasetteCount` function that should error if it's passed anything other than a valid artist name from your `casettesByArtist` object.
+We have a `getCassetteCount` function that should error if it's passed anything other than a valid artist name from your `casettesByArtist` object.
 
 Remember, we don't want to ever have to retype the keys in the `casettesByArtist` object.

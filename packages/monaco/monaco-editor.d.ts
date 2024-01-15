@@ -3355,7 +3355,7 @@ export namespace editor {
          */
         mouseWheelScrollSensitivity?: number;
         /**
-         * FastScrolling mulitplier speed when pressing `Alt`
+         * FastScrolling multiplier speed when pressing `Alt`
          * Defaults to 5.
          */
         fastScrollSensitivity?: number;
@@ -7962,7 +7962,7 @@ export namespace languages.css {
             readonly idSelector?: 'ignore' | 'warning' | 'error';
         };
         /**
-         * Configures the CSS data types known by the langauge service.
+         * Configures the CSS data types known by the language service.
          */
         readonly data?: CSSDataConfiguration;
         /**
@@ -8148,7 +8148,7 @@ export namespace languages.html {
          */
         readonly suggest?: CompletionConfiguration;
         /**
-         * Configures the HTML data types known by the HTML langauge service.
+         * Configures the HTML data types known by the HTML language service.
          */
         readonly data?: HTMLDataConfiguration;
     }
@@ -8802,7 +8802,7 @@ export namespace languages.typescript {
          * @param options `typescript.FormatCodeOptions`
          * @returns `Promise<typescript.TextChange[]>`
          */
-        getFormattingEditsAfterKeystroke(fileName: string, postion: number, ch: string, options: any): Promise<any[]>;
+        getFormattingEditsAfterKeystroke(fileName: string, position: number, ch: string, options: any): Promise<any[]>;
         /**
          * Get other occurrences which should be updated when renaming the item at the given file and position.
          * @returns `Promise<readonly typescript.RenameLocation[] | undefined>`
