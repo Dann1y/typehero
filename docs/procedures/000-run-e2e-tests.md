@@ -6,8 +6,8 @@ Status: accepted
 
 # Context
 
-TypeHero utilizes Playwright for E2E testing. Playwrite enables reliable, end-to-end
-tesing for modern web apps. Here is a [link to their docs](https://playwright.dev/docs/intro).
+TypeHero utilizes Playwright for E2E testing. Playwright enables reliable, end-to-end
+testing for modern web apps. Here is a [link to their docs](https://playwright.dev/docs/intro).
 
 # Decision
 
