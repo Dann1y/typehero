@@ -8,7 +8,7 @@ interface TrackVisibilityContextType {
 
 export const TrackVisibilityContext = createContext({} as TrackVisibilityContextType);
 
-export const TrackVisibiltyProvider = ({ children }: PropsWithChildren) => {
+export const TrackVisibilityProvider = ({ children }: PropsWithChildren) => {
   const [isTrackTitleVisible, setIsTrackTitleVisible] = useState<boolean>(false);
 
   return (
@@ -18,10 +18,10 @@ export const TrackVisibiltyProvider = ({ children }: PropsWithChildren) => {
   );
 };
 
-export const useTrackNavigationVisiblity = () => {
+export const useTrackNavigationVisibility = () => {
   const context = useContext(TrackVisibilityContext);
   if (context === undefined) {
-    throw new Error('use useTrackVisiblity hook within TrackVisibiltyProvider');
+    throw new Error('use useTrackVisibility hook within TrackVisibilityProvider');
   }
   return context;
 };
